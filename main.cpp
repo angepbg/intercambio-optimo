@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <conio.h>
 #include "fstream"
 #include "string.h"
 #include "iostream"
@@ -35,6 +36,7 @@ int main()
 		}
 		ob.close();
 	}
+	getch();
 }
 void ordenar(int *V, int TAM){
 	int temp;
